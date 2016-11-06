@@ -1,179 +1,109 @@
 import datetime
+import xml.etree.ElementTree as ET
+from nltk.tokenize import word_tokenize
+from nltk.stem import PorterStemmer
+ps = PorterStemmer()
 
 class paragraph():
-    #represents a paragraph
     
-    def __init__(self):
+    def __init_(self):
         text = ''
-        stemmed = []
-        in_article = ''
-        in_part = ''
+        tokens = []
+        stm = []
+        tag = ''
+        belong_to = ''
         relevancy = ()
-        i_in_part = 0
-        i_in_article = 0
+        position = 0
 
-    #populating paragraph object from a txt file with only 1 paragraph in it
-    #paragraph info is specified in txt file
-    #for testing porpose
-    def from_sep_txt(self, fname):
-        f = open(fname, 'r'):
-            self.text = ''
-        f.close()
+    #using nltk.stem.PorterStemmer
+    def stemming(self):
+        stemmed = []
+        for t in self.tokens:
+            stemmed_word = ps.stem(t)
+            stemmed.append(stemmed_word)
+            
+        self.stm = stemmed
 
-    #populate paragraph object from article level
-    #inputing txt from article class
-    def from_article(self, article):
+    def get_content(self, in_node, in_title, in_pos, method='porter'):
+        #getting basic info
+        self.tag = in_node.tag
+        self.belong_to = in_title
+        self.position = in_pos
+
+        #getting raw text
+        raw_list = in_node.text.split()
+        s = ''
+        for item in raw_list:
+            s += item
+            s += ' '
+
+        self.text = s
+
+        #tokenizing
+        self.tokens = word_tokenize(s)
+
+        #stem
+        if method == 'porter':
+            self.stemming()
+        else:
+            pass
+
+    def query(self):
         pass
-
-    #stemming text into key words with no internal logic
-    def stem(self):
-        pass
-
-    #stemming text into key words with no internal logic
-    def stem_logic(self):
-        pass
-
-    #generate a tuple: (relevancy score, query str)
-    def query(self, query):
-        pass
-
-
-class part():
-    #represents a certain part in article such as abstract or conclusion
-    #list possible parts here:
-        #TBD
-    
-    def __init__(self):
-        part_type = ''
-        list_para = []
-        subtitle = ''
-        in_article = ''
-        i_in_article = 0
-        weight = 0.0
-
-    #populate part object from individual article objects
-    #for testing porpose
-    def from_para(self, para):
-        pass
-
-    #populating part object from article level
-    def from_article(self, article):
-        pass
-
-    #set weight of part according to article level weight schema
-    def set_weight(self):
-        pass
-
-class block():
-    #represents a part of the article on a spedific topic
-    
-    def __init__(self):
-        list_para = []
-        subtitle = ''
-        in_article = ''
-        i_in_article = 0
-        weight = 0.0
-
-    #populate part object from individual article objects
-    #for testing porpose
-    def from_para(self, para):
-        pass
-
-    #populating part object from article level
-    def from_article(self, article):
-        pass
-
-    #set weight of part according to article level weight schema
-    def set_weight(self):
-        pass
-
+        
+        
 
 class article():
-    #representing a complete article
 
     def __init__(self):
         title = ''
         author = []
         journal = ''
-        #potential author/journal rating & objects
-
-        list_part = []
-        weight_schema_part = {}
+        keywords = []
         sited_freq = 0
-        date = datetime.datetime()
+        date = datetime.datetime(2000,1,1,1,1,1)
 
-    #construct article object from paragraphs
-    #for test porpose
-    def from_para():
-        pass
+        parts = []
+        weight_schema = {}
+        content = []
 
-    #construct article and its part and paragraphes
-    #from file containing complete article
-    def from_article():
-        pass
+    def drop_dup(self, in_list):
+        out_list = []
+        for item in in_list:
+            if not (item in out_list):
+                out_list.append(item)
 
-    #summarize article somehow
-    def summary():
-        pass
+        return out_list
 
-class query():
-    #represent a query & its results
+    def construct(self, fname):
+        tree = ET.parse(fname)
+        root = tree.getroot()
 
-    def __init__(self):
-        query_str = ''
-        stemmed = []
+        #getting basic infot
+        self.title = root.findall('./info/title')[0].text
+        self.author = [x.text for x in root.findall('./info/author')]
+        self.keywords = root.findall('./info/keywords')[0].text.split(',')
 
-    def input_query(self, in_str):
-        pass
+        #getting parts
+        tags = [x.tag for x in root]
+        self.parts = self.drop_dup(tags)
 
-class query_result():
-    #represent the result of a query
+        #populating paragraphs
+        paras = [x for x in root]
+        paras.pop(0)
 
-    def __init__(self):
-        q = query()
-        result = []
-        #result is a ranked list of paragraph objects
+        paragraphes = []
+        for item in paras:
+            p = paragraph()
+            p.get_content(item, self.title, paras.index(item))
+            paragraphes.append(p)
 
-    #get context of a resulted paragraph
-    def get_context():
-        pass
-
-
-#importing
-def construct_para():
-    pass
-
-def construct_art():
-    pass
-
-def pickling():
-    pass
-
-def store_to_db():
-    pass
-
-#querying
-def querying():
-    pass
-
-#create a customized dictionary for stemming
-def create_dict():
-    pass
-    
+        self.content = paragraphes
         
         
-
-
-
-
-
-
-
-
-
-
-
-
+#testing
+a = article()
+a.construct('test1.xml')
 
 
 
