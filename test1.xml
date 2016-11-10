@@ -1,0 +1,430 @@
+<article>
+	<info>
+		<title>Time-Temperature-Pressure Superposition in Polymer Thickened Liquid Lubricants</title>
+		<author>Scott Bair</author>
+		<author>Farrukh Qureshi</author>
+		<keywords>rheology, elastohydrodynamics, polymer blends, high pressure</keywords>
+	</info>
+	<abstract>
+Shear-dependent viscosities have been measured over a range of temperature and pressure
+for seven engine oils blended to have kinematic viscosity of 14 mm2/s at 100 C with two
+base oils and four viscosity modifiers. Elevated pressure measurements were performed
+with a pressurized thin-film Couette viscometer and ambient pressure measurements were
+done with a PCS USV viscometer. These measurements were fitted to a generalized Newtonian
+model with the effective shear modulus specified by an empirical power-law shifting
+rule. The use of PAO-40 as a thickener delayed the shear-thinning to very high stress as
+compared with the polymers. The rate sensitivity of the oils thickened with nondispersant
+polymers was similar. Like the Tannas TBS viscometer, the PCS Instruments USV viscometer
+provides shear-dependent viscosity measurements, which can be essential for the most
+accurate time-temperature-pressure shifting. Viscosities measured at high viscous power
+in the ambient pressure viscometer, however, tend to be influenced by thermal softening
+and at high stress by shear cavitation.
+	</abstract>
+	<Introduction>
+		The study of elastohydrodynamic lubrication (EHL) has
+		evolved rapidly in the last eight years [1–4] through the incorporation
+		of realistic rheology, obtained from viscometers, into EHL
+		analysis. Discoveries are now made through analysis before experimental
+		observation [5–7]. There is now a successful formula
+		for the prediction of EHL film thickness for polymer thickened
+		oils [8]. Previously the use of viscometers to characterize the
+		shear dependence of viscosity was considered to be controversial
+		[9]. It should be possible to apply the same successful principles
+		to hydrodynamic lubrication [10].
+	</Introduction>
+	<Introduction>
+		The time-temperature-pressure superposition (TTPS) principle,
+		or the method of reduced variables, is an essential part of quantitative
+		elastohydrodynamics where the temporary shear dependence
+		of the viscosity or shear-thinning of the liquid must be known.
+		Pressure shifting is obviously a requirement for any lubrication
+		application because for a bearing supporting a load the liquid film
+		must operate at elevated pressure. Measurements of the shearthinning
+		may be made at experimentally convenient conditions of
+		temperature, pressure and shear rate with confidence that the information
+		gained is relevant to the conditions in the lubricating
+		film of an operating bearing or concentrated contact. Were it not
+		for TTPS it would not be possible to make predictions of film
+		thickness and friction under severe conditions because the
+		required properties could only be obtained under conditions for
+		which they would be hopelessly intertwined with thermal effects.
+		Tanner [11] presents an engineering based discussion of TTPS.
+		Although TTPS can also be used to calculate the normal stress differences
+		in steady shear, only the application of TTPS to shear
+		thinning viscosity is addressed here.
+	</Introduction>
+	<Introduction>
+		The viscosity of polymer solutions may vary with shear stress
+		(or shear rate) as a result of alignment and stretching of the polymer
+		molecule, resulting in a temporary reduction in viscosity
+		known as shear-thinning. Viscosity may also be permanently
+		reduced due to high shear stress by the breaking of chemical
+		bonds known as degradation. Both phenomena have been
+		observed in the pressurized Couette viscometers [12] which are
+		employed in this work. The study of non-Newtonian behavior of
+		lubricants has a troubled history in tribology. The thermalsoftening
+		which results from the increase of temperature due to
+		viscous dissipation is not shear-thinning as has been occasionally
+		asserted [13] in the tribology literature. The association of shearthinning
+		with high rate of shear rather than high shear stress may
+		have originated with this mistaken notion. Indeed, the acceptance
+		of a realistic explanation for traction in EHL was delayed by decades
+		due to the insistence on modeling non-Newtonian response
+		with the sinh-law, an expression known for eighty years to have
+		resulted from viscous heating in viscometers [14]. In addition,
+		shear cavitation, which occurs in viscometers at ambient pressure
+		[1,10], can be mistaken for either shear-thinning or degradation.
+	</Introduction>
+	<Introduction>
+		In this article, two different viscometers operating over very
+		different levels of viscosity and pressure are used to establish the
+		TTPS shifting rules for seven polymer thickened engine oils formulated
+		for kinematic viscosity of 14 mm2/s at 100 C.
+	</Introduction>
+	<Time-Temperature-Pressure_Superposition>
+		Flow curves of the logarithm of viscosity plotted against the
+		logarithm of shear stress can be made to superimpose by shifting
+		along a path that is vertical or nearly so. There are many other
+		ways to illustrate the superposition; however, for lubrication problems
+		the presentation of viscosity, g, versus shear stress, s, on logarithmic
+		scales is most useful. Superposition is illustrated in Fig. 1
+		for the standard reference material SRM2490 a solution of polyisobutylene
+		in pristane. NIST certified viscosities [15] at ambient
+		pressure and viscosities measured in a pressurized Couette viscometer
+		at pressure of 2 MPa are plotted, normalized by the limiting
+		low shear viscosity, l. The pressurized Couette data from
+		Georgia Tech were generated with a single revolution of copper
+		alloy cylinders with 11 lm gap. Not only is there agreement
+		between the two data sets, but vertical shifting has resulted in a
+		compact master curve. The small elevated pressure employed for
+		the present data will not significantly affect the viscosity but will
+		prevent cavitation bubbles which will form at ambient pressure
+		for stress greater than about 4 kPa given the non-Newtonian
+		character of the polymer solution [16]. Also, this standard reference
+		material will degrade for shear stress greater than about
+		7 kPa [12]. The inflection in the flow curve of Fig. 1 requires that
+		a second Newtonian viscosity be included as a fitting parameter;
+		however, a second Newtonian plateau of constant viscosity rarely
+		appears since most often the polymer will degrade or the base oil
+		will shear-thin before the viscosity levels out.
+	</Time-Temperature-Pressure_Superposition>
+	<Time-Temperature-Pressure_Superposition>
+		The generalized viscosity function shown in Fig. 1 as the curve
+		is an approximation to Carreau-Yasuda [17] which gives the
+		viscosity as a function of shear stress rather than shear rate.
+	</Time-Temperature-Pressure_Superposition>
+	<Time-Temperature-Pressure_Superposition>
+		Here, the effective shear modulus is G¼450 Pa, the power-law
+		exponent is n¼0.26, the Yasuda parameter is a¼1.3, and the second
+		Newtonian viscosity is defined by l2/l¼0.0063. This form
+		for the viscosity function will be used throughout this article
+		although there are many such expressions available [12].
+	</Time-Temperature-Pressure_Superposition>
+	<Time-Temperature-Pressure_Superposition>
+		Another method to produce a master curve [18] yields viscosity
+		as a function of rate by expressing a reduced viscosity, g=aTp, as a
+		function of reduced shear rate, aTp _ c, where the shift factor is
+		aTp ¼ lðT; pÞ=lðTR; pRÞ and TR and pR are a reference temperature
+		and pressure, respectively. This is equivalent to the shifting
+		shown in Fig. 1, although the shape of the master curve is, of
+		course, different because the independent variables are different.
+		This is the simplest shifting rule, where G¼GR is constant, also
+		known as the Vinogradov-Malkin shifting rule [19].
+	</Time-Temperature-Pressure_Superposition>
+	<Time-Temperature-Pressure_Superposition>
+		A shifting rule based upon molecular kinetic theory [18] is the
+		Ferry rule [19], for which G ¼ GRðqTÞ=ðqRTRÞ. This rule, however,
+		predicts that G will increase with temperature, an effect not
+		ordinarily confirmed by experiment. If the low shear viscosity
+		varies by many orders-of-magnitude due to variations in pressure,
+		a different shifting rule has been found to be useful [20,21].
+	</Time-Temperature-Pressure_Superposition>
+	<Time-Temperature-Pressure_Superposition>
+		with 0m0.3. If m¼0, the Vinogradov-Malkin rule results.
+		Here, it is arbitrarily chosen that lR¼10 Pas. The choice of shifting
+		rule has been shown to have a small effect on the calculated
+		film thickness in EHL [22].
+	</Time-Temperature-Pressure_Superposition>
+	<Viscometers>
+		The primary viscometer used in this investigation is the thinfilm
+		pressurized Couette viscometer in the Center for High Pressure
+		Rheology, Georgia Tech shown in Fig. 2. This instrument is
+		the last in a series of six developed to measure viscosity versus
+		shear stress to sufficient shear stress for the observation of sheardependence
+		in lubricant base oils. It has been described in fine
+		detail in Ref. [12]. Briefly, the outer cylinder of a cylinder set is
+		restrained by a torque sensor while the inner cylinder is rotated
+		through one revolution by a stepper motor outside of the pressure
+		vessel. The cylinders are constructed from dispersionstrengthened
+		copper for high thermal conductivity and strength.
+		The gap is less than 5 lm for the high stress measurements to follow
+		resulting in a low Nahme-Griffith number [23] flow. A low
+		Nahme-Griffith number implies a low thermal feedback in the viscometer.
+		Calibration of the gap is performed with a reference
+		liquid, diisodecyl phthalate, which is Newtonian to relatively high
+		stress. The usefulness of this instrument for lubricant analysis has
+		been proven through many examples of quantitative predictions of
+		film thickness and friction [1–8] and measurements of mechanical
+		degradation [12]. While it is possible to perform these measurements
+		to 1 GPa [12] using a simpler viscometer, the Ferry shifting
+		rule has been validated to this pressure [12] making possible the
+		extrapolation from these lower pressures.
+	</Viscometers>
+	<Viscometers>
+		The low-shear viscosities for elevated pressures were measured
+		with a falling cylinder viscometer [24] using a hollow sinker
+		which applies a shear stress of 45 Pa.
+	</Viscometers>
+	<Viscometers>
+		In a previous report [25], the shifting rule was determined for a
+		gear oil to be m¼0 from the superposition of data from the pressurized
+		Couette viscometer at pressure up to 500 MPa and 38 C
+		and data from a Tannas TBS viscometer [26] at ambient pressure
+		and 150 C. The viscosity in that case varied from 0.005 to
+		26 Pas. In this work a different ambient pressure viscometer, the
+		PCS Instruments ultra-shear viscometer (USV), has been
+		employed. The operating principles of this instrument are
+		described in Ref. [27]. This instrument, like the TBS, is restricted
+		to ambient pressure.
+	</Viscometers>
+	<Viscometers>
+		The low-shear viscosities for ambient pressure were measured
+		with a capillary viscometer, Cannon CAV2000 [28]. The precise
+		shear stress is unknown but is usually of the order of 1 Pa.
+	</Viscometers>
+	<Viscosity_Measurements>
+		Seven samples were blended to have kinematic viscosity of 14
+		mm2/s at 100 C with an additive package, which is standard for
+		engine oils, exclusive of the polymer thickener. They are
+		described in Table 1. The polymer thickeners, SBR, PMA, and
+		OCP are Styrene Butadiene, Polymethacrylate and Olefin Copolymer,
+		respectively. Two samples were thickened with a 40 mm2/s
+		at 100 C polyalphaolefin (PAO-40). Commercially available viscosity
+		modifiers were used in the study. Molecular structure and
+		other properties of these polymers are proprietary to the viscosity
+		modifier manufacturers. A nominal base oil kinematic viscosity of
+		4 mm2/s at 100 C and varying concentrations of viscosity modifiers
+		were used to reach the blend viscosity of 14 mm2/s at 100 C.
+	</Viscosity_Measurements>
+	<Viscosity_Measurements>
+		Flow curves are shown in Fig. 3 through 9. Five samples, 644,
+		645, 646, 647, and 648, displayed an inflection within the
+		measured interval of shear stress which requires a second Newtonian
+		viscosity. One sample, 649, yielded a rate sensitivity coefficient,
+		n ¼ @ ln s=@ ln _ c, very close to unity as shown in Fig. 8.
+		Such weak shear-thinning will usually not result in an inflection
+		since low viscosity base oils will shear-thin above a stress of
+		about 5 MPa. One sample, 650 shown in Fig. 9, showed no significant
+		departure from Newtonian response until the stress exceeded
+		about 500 kPa at elevated pressures. A smaller cylinder set made
+		of tungsten-copper composite was used to generate the flow
+		curves in Fig. 9 for l>40 Pas.
+	</Viscosity_Measurements>
+	<Viscosity_Measurements>
+		Equations (1) and (2) were graphically fitted to all data resulting
+		in the parameters listed in Table 2. The standard deviation of
+		relative viscosity, excluding certain USV data, was generally 4%.
+		The parameter, a, sets the width of the transition from the first
+		Newtonian plateau to the shear-thinning regime. The smaller
+		value of a was required for 650 due to a rather broad transition
+		which is a characteristic of blended base oils [1]. For l2/l>0.03,
+		n 6¼ n [8]. Therefore, the rate sensitivity coefficient has been
+		evaluated at the inflection and entered in Table 2 for all except
+		650. There was insufficient stress applied in the measurement for
+		650 to observe the fully-developed power-law response. The data
+		from the USV viscometer at ambient pressure was essential for
+		the estimation of the TTPS shifting exponent, m, since the elevated
+		pressure data did not cover a sufficiently large interval of
+		viscosity to accurately establish the variation in G. It was not possible
+		to evaluate m for sample 650 since the transition to shearthinning
+		was due to the PAO-40 only and as such the stress
+		exceeded the capability of the ambient pressure viscometer.
+	</Viscosity_Measurements>
+	<Viscosity_Measurements>
+		Referring to Figs. 3 through 6, there is a significant departure
+		from the constitutive relation (1) for the data generated by the
+		USV viscometer when the viscous power, U¼s2/g, exceeds about
+		21011W/m3. The origin of this departure can be investigated by
+		an estimation of the temperature rise, T0, of the working surfaces
+		of the cylinders for the conditions of the circled data points in
+		Fig. 4 which correspond to similar stresses. A lower limit for T0
+		can be found from a calculation of the surface temperature of a
+		semi-infinite solid with constant heat flux into the surface, Uh/2,
+		assuming the measured viscosity applies for the entire time of
+		shear, t. The solution from Carslaw and Jaeger [29] is
+	</Viscosity_Measurements>
+	<Viscosity_Measurements>
+		The thermal conductivity and thermal diffusivity of the cylinders
+		are k and j, respectively and are listed with the properties of the
+		cylinder sets for the two viscometers in Table 3. The viscous
+		power and temperature rise are shown in Table 3. Including thermal
+		feedback would result in a decrease of the temperature; however,
+		including the finite thickness of the cylinders would increase
+		the temperature. The much greater viscous power is primarily responsible
+		for the large temperature rise in the USV viscometer.
+		Warrens and coworkers [30] found thermal softening effects in
+		the USV for U>31011W/m3.
+	</Viscosity_Measurements>
+	<Viscosity_Measurements>
+		The temperature-viscosity coefficient for 645 at ambient pressure
+		and 50 C is b¼0.036K1. For a rate controlled process,
+		@ ln g=@T ¼ bðn þ m  nmÞ ¼ 0:031K1 [12]. The estimated
+		temperature rise for the USV would, therefore, result in a 21%
+		decrease in viscosity. The measured viscosity is 23% less than the
+		prediction of Eq. (2) indicating that viscous heating is primarily
+		responsible for the departure. There is, however, a second nonconstitutive
+		process at work in Figs. 8 and 9.
+	</Viscosity_Measurements>
+	<Viscosity_Measurements>
+		Shear cavitation occurs when a tensile stress appears in a
+sheared liquid. Cavitation bubbles first appear for shear stress satisfying
+the principle normal stress criterion [16]
+	</Viscosity_Measurements>
+	<Viscosity_Measurements>
+		For a Newtonian liquid, cavitation occurs when s>p. For non-
+		Newtonian liquids the approximation N12s2/G for the first normal
+		stress difference is useful. In Figs. 8 and 9, the stress in the
+		USV viscometer momentarily exceeds the ambient pressure
+		(100 kPa). Thereafter, for increased shear rate, the stress saturates
+		at slightly more than 1 atmosphere. This is the shear cavitation
+		first explained 26 years ago [31]. Bubbles increase viscosity at
+		low stress and reduce viscosity at high stress. Equation (4) predicts
+		that bubbles will appear for s>10 kPa and 50 kPa for 649
+		and 650, respectively, and at lower stress for all other samples.
+		Apparently the short time of shear, 40 ms, for the USV viscometer
+		does not allow for significant nucleation and grow of cavitation
+		bubbles until the cavitation results in liquid failure; however,
+		since cavitation bubbles can persist for more than one hour [16],
+		repeated shearing is likely to result in a measureable loss in viscosity
+		which can be confused with degradation.
+	</Viscosity_Measurements>
+	<Discussion>
+		The weak shear-thinning, n*¼0.95, of sample 649 results from
+		the contribution of the dispersant additive alone and the relatively
+		large effective modulus of 650, G¼1500 kPa, is caused by the
+		shear dependence of the PAO-40 thickener which is present in
+		649, as well. If the flow curves for 649 had been extended with
+		the smaller, high-stress cylinder set, it is expected that the sheardependence
+		of the PAO-40 would also appear. For neat PAO-40,
+		G¼6000 kPa and n¼0.4 [12].
+	</Discussion>
+	<Discussion>
+		Comparing sample 644 with 648, the dispersant form of OCP
+		results in a reduction of n* and GR over the nondispersant form.
+		Comparing 646 with 647, the use of PAO base oil with PMA
+		reduces GR and m over the mineral base oil. The various polymer
+		thickeners, SBR, PMA and OCP in PAO may be compared
+		through samples 645, 646, and 647. PMA yields the greatest value
+		of GR and OCP the smallest value of l2/l. Among all the polymers
+		in PAO, n* is similar.
+	</Discussion>
+	<Discussion>
+		Like the Tannas TBS viscometer, the PCS USV viscometer provides
+		shear-dependent viscosity measurements which can be
+		essential for the most accurate TTPS shifting. However, care must
+		be taken in the interpretation of data from this viscometer as viscosities
+		measured at high viscous power tend to be influenced by
+		thermal softening [26] and at high stress by shear cavitation. For
+		sample 649, the data most useful for interpretation of shearthinning
+		were above the manufacturer stated viscosity range of 20
+		mPas [32].
+	</Discussion>
+	<Discussion>
+		Mechanical degradation in a Couette viscometer presents as a
+		viscosity measurement which cannot be repeated following shearing
+		at higher stress [12,33]. Each sample was subjected to shear
+		stress in excess of 100 kPa for at least 10 s. There was no loss in
+		repeatability after the shearing at high stress. Therefore, degradation
+		did not occur and is not expected for stress up to at least
+		100 kPa.
+	</Discussion>
+	<Discussion>
+		The viscosity ratio, l2/l, was adjusted to visually fit the inflection
+		in the viscosity data. This process was aided by forty years of
+		experience in interpreting flow curves for polymer blended oils.
+		When similar flow curves for high molecular base oils such as
+		reported in Ref. [34] are compared with these, the inflection
+		becomes obvious as it is absent from those for base oils. The constitutive
+		modeling presented here was tested for oil 647 by measuring
+		the rolling central film thickness in EHL by interferometry
+		as shown in Fig. 10. Temperature was 100 C and the Hertz pressure
+		was 0.5 GPa. Employing the parameters of Table 2 with G
+		calculated from Eq. (2) for the average inlet pressure, resulted in
+		good agreement with the measured film thickness using the formula
+		from Ref. [8]. The accuracy of the prediction was substantially
+		degraded by increasing or decreasing the viscosity ratio by
+		20%. The capability to predict shear-thinned film thickness for
+		temperature very different from the viscosity measurements
+		attests to the utility of TTPS.
+	</Discussion>
+	<Conclusions>
+		(1) Shear-dependent viscosities have been measured over a
+		range of temperature and pressure for seven engine oils
+		blended to have kinematic viscosity of 14 mm2/s at 100 C
+		with standard additive package and polymer thickeners,
+		SBR, PMA, and OCP, and a PAO-40.
+	</Conclusions>
+	<Conclusions>
+		(2) Elevated pressure measurements were performed with a
+		pressurized thin-film Couette viscometer and ambient pressure
+		measurements were done with a PCS USV viscometer.
+	</Conclusions>
+	<Conclusions>
+		(3) These measurements were fitted to a generalized Newtonian
+		model with the effective shear modulus specified by
+		an empirical power-law shifting rule.
+	</Conclusions>
+	<Conclusions>
+		(4) The use of PAO-40 as a thickener delayed the shearthinning
+		to very high stress as compared with the polymers.
+	</Conclusions>
+	<Conclusions>
+		(5) The rate sensitivity at inflection of the oils thickened with
+		nondispersant polymers was similar.
+	</Conclusions>
+	<Conclusions>
+		(6) The ambient pressure, high shear rate viscometer provides
+		essential data for the most accurate TTPS shifting.
+	</Conclusions>
+	<Conclusions>
+		(7) Viscosities measured at high viscous power in the ambient
+		pressure viscometer tend to be influenced by thermal softening
+		and at high stress by shear cavitation.
+	</Conclusions>
+	<Conclusions>
+		(8) These materials were unaffected by mechanical degradation
+		to shear stress of at least 100 kpa.
+	</Conclusions>
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
