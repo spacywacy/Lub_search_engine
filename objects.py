@@ -104,6 +104,7 @@ class article():
 #testing
 a = article()
 a.construct('test1.xml')
+print(a.text)
 
 
 
